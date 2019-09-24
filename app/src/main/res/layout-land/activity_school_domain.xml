@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <requestFocus />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/school_url"
+        android:layout_centerHorizontal="true"
+        android:text="Your School Domain Name"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="27dp"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/school_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cancel_user_domain_btn"
+
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:hint="www.google.edu"
+
+        android:textSize="13dp" />
+
+    <Button
+        android:id="@+id/cancel_user_domain_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="100dp"
+        android:background="@color/button_top_bg"
+        android:height="50dp"
+        android:text="Cancel"
+        android:textColor="@color/button_txt_color"
+        android:textSize="22dp" />
+
+    <Button
+        android:id="@+id/user_validate_domain_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cancel_user_domain_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/button_below_bg"
+        android:height="50dp"
+        android:text="Next"
+        android:textColor="@color/button_txt_color"
+        android:textSize="22dp" />
+
+</RelativeLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <requestFocus />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/user_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@color/button_top_bg"
+            android:height="30dp"
+            android:minHeight="30dp"
+            android:text="Cancel"
+            android:textColor="@color/button_txt_color"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/user_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@color/button_below_bg"
+            android:height="30dp"
+            android:minHeight="30dp"
+            android:text="Update"
+            android:textColor="@color/button_txt_color"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/user_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/button_top_bg"
+        android:height="30dp"
+        android:minHeight="30dp"
+        android:text="Delete Account"
+        android:textColor="@color/button_txt_color"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="MY ACCOUNT"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/confirm_update_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/user_delete"
+        android:layout_alignParentLeft="true"
+        android:ems="10"
+        android:hint="@string/con_pass_hint"
+        android:inputType="textPassword"
+        android:textSize="11dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/confirm_update_pass"
+        android:layout_centerHorizontal="true"
+        android:text="@string/con_pass_label"
+        android:textSize="12dp" />
+
+    <EditText
+        android:id="@+id/update_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:ems="10"
+        android:hint="@string/reg_pass_hint"
+        android:inputType="textPassword"
+        android:textSize="11dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/update_pass"
+        android:layout_centerHorizontal="true"
+        android:text="@string/user_password_label"
+        android:textSize="12dp" />
+
+    <EditText
+        android:id="@+id/update_user_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:ems="10"
+        android:hint="@string/reg_phone_hint"
+        android:textSize="11dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/update_user_phone_number"
+        android:layout_centerHorizontal="true"
+        android:text="@string/reg_phone_label"
+        android:textSize="12dp" />
+
+</RelativeLayout>

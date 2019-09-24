@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <Button
+                android:id="@+id/studyGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="StudyGroups"
+                android:layout_weight="1" />
+            <Button
+                android:id="@+id/sportEvent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EVents"
+                android:layout_weight="1" />
+            <Button
+                android:id="@+id/meetUps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MeetUps"
+                android:layout_weight="1" />
+            <Button
+                android:id="@+id/today"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Today" />
+            <Button
+                android:id="@+id/thisWeek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ThisWeek" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/searchText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/searchButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+</LinearLayout>

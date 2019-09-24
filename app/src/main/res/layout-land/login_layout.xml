@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+   
+
+    <Button
+        android:id="@+id/user_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:height="30dp"
+        android:minHeight="30dp"
+        android:textSize="16dp"
+        android:background="@color/button_below_bg"
+        android:textColor="@color/button_txt_color"
+        android:text="Login" />
+    
+
+    <Button
+        android:id="@+id/user_login_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/user_login"
+        android:layout_alignLeft="@+id/user_login"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/button_top_bg"
+        android:height="30dp"
+        android:minHeight="30dp"
+        android:textSize="16dp"
+        android:text="Cancel"
+        android:textColor="@color/button_txt_color" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/user_password"
+        android:layout_centerHorizontal="true"
+        android:text="@string/user_password_label"
+        android:textSize="14dp" />
+     <requestFocus />
+
+     <EditText
+         android:id="@+id/user_email"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/textView1"
+         android:layout_alignParentRight="true"
+        
+         android:hint="@string/user_email_hint"
+         android:inputType="textEmailAddress"
+         android:textSize="13dp" />
+    <TextView
+        android:id="@+id/textViewSchoolURL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/loginSchoolURL"
+        android:layout_centerHorizontal="true"
+        android:text="School URL"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/loginSchoolURL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewEmail"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="14dp"
+        android:ems="10"
+        android:hint="www.google.com"
+        android:inputType="textEmailAddress"
+        android:textSize="16dp" />
+
+
+    <TextView
+         android:id="@+id/textViewEmail"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/user_email"
+         android:layout_centerHorizontal="true"
+         android:text="@string/user_email_label"
+         android:textSize="14dp" />
+
+     <TextView
+         android:id="@+id/textView0"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/textViewEmail"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:text="LOGIN"
+         android:layout_marginTop="20dp"
+         android:textSize="16dp"
+         android:textStyle="bold" />
+
+     <EditText
+         android:id="@+id/user_password"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/user_login_cancel"
+         android:layout_alignParentLeft="true"
+         android:layout_marginBottom="21dp"
+         android:ems="10"
+         android:hint="@string/login_pass_hint"
+         android:inputType="textPassword"
+         android:textSize="13dp" />
+
+</RelativeLayout>

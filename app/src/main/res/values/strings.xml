@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fallaye</string>
+    <string name="welcome_message">Fallaye</string>
+    <string name="title_activity_main">Fallaye</string>
+    <string name="post_title_hint">Enter a title for this Post</string>
+    <string name="post_title_label">Title</string>
+    <string name="post_author_label">Author</string>
+    <string name="post_author_hint">Enter the Post author name</string>
+    <string name="post_date_label">Date</string>
+    <string name="post_time_label">Time</string>
+    <string name="post_location_label">Location</string>
+    <string name="post_location_hint">Enter the location for this Post...</string>
+    <string name="post_description_label">Description</string>
+    <string name="post_description_hint">Enter the description for this Post...</string>
+    <string name="post_date_hint">Set date</string>
+    <string name="post_time_hint">Set time</string>
+    <string name="post_category_label">Category</string>
+    <string name="post_study_groups">Study Groups</string>
+    <string name="post_events">Events</string>
+    <string name="post_housings">Housings</string>
+    <string name="post_jobs">Jobs</string>
+
+    <string name="reg_user_label">Full Name</string>
+    <string name="reg_phone_label">Phone Number</string>
+    <string name="reg_phone_hint">Phone Number</string>
+    <string name="user_email_hint">Enter your email</string>
+    <string name="user_name_label">Email</string>
+    <string name="user_email_label">Email</string>
+    <string name="reg_user_hint">Enter your first and last name</string>
+    <string name="user_name_hint">Enter your email</string>
+    <string name="reg_email_hint">Enter your email</string>
+    <string name="reg_email_label">Email</string>
+    <string name="user_password_label">Password</string>
+    <string name="reg_password_label">Password</string>
+    <string name="confirm_reg_password_label">Confirm Password</string>
+    <string name="reg_pass_hint">Enter Password</string>
+    <string name="login_pass_hint">Enter Password</string>
+    <string name="con_pass_label">Confirm Password</string>
+    <string name="con_pass_hint">Enter Confirm Password</string>
+    <string name="post_type_hint">Set Type</string>
+    <string name="posts_title">Fallaye</string>
+    <string name="date_picker_title">Date of post</string>
+    <string name="new_post">New Post</string>
+    <string name="show_subtitle">Show Subtitle</string>
+    <string name="hide_subtitle">Hide Subtitle</string>
+    <string name="subtitle">If you see something, say something</string>
+    <string name="delete">Delete</string>
+
+    <string name="study_groups">Clubs</string>
+    <string name="events">Events</string>
+    <string name="today">Jobs</string>
+    <string name="this_week">Housings</string>
+    <string name="search">Search</string>
+    <string name="search_text_hint">Text to search</string>
+
+    <string name="show_dialog">Type</string>
+
+    <string name="create_post">Create Post</string>
+    <string name="update_post">Update post</string>
+    <string name="pick_date">Date</string>
+    <string name="pick_time">Time</string>
+
+
+    <!-- <string name="action_settings">Log off</string> -->
+    <string name="action_logoff">Log off</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>My Account</item>
+        <item>Edit Posts</item>
+        <item>Marketplace</item>
+        <item>Support</item>
+        <item>Trade</item>
+        <item>Support</item>
+        <item>Communities</item>
+        <item>What\'s Hot</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_sell</item>
+        <item>@drawable/ic_buy</item>
+        <item>@drawable/ic_trade</item>
+        <item>@drawable/ic_sell</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_trade</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_buy</item>
+    </array>
+
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="coming_soon">Coming soon...</string>
+    <string name="login">Login</string>
+    <string name="registration">Registation</string>
+
+</resources>

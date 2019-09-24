@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<!-- android:title="@string/action_settings"/> -->
+<!-- android:id="@+id/action_settings" -->
+    <item
+        android:id="@+id/action_logoff"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        
+        android:title="@string/action_logoff"/>
+        android:title="@string/action_logoff"/>
+
+</menu>

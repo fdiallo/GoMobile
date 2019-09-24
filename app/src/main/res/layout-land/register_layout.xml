@@ -1,0 +1,157 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/reg_name"
+        android:layout_centerHorizontal="true"
+        android:text="@string/reg_user_label"
+        android:textSize="10dp" />
+
+    <EditText
+        android:id="@+id/reg_name"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_above="@+id/textView5"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        
+        android:hint="@string/reg_user_hint"
+        android:textSize="10dp" />
+
+    <requestFocus />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/reg_phone_num"
+        android:layout_centerHorizontal="true"
+        android:text="@string/reg_phone_label"
+        android:textSize="10dp" />
+
+    <EditText
+        android:id="@+id/reg_phone_num"
+        android:layout_width="match_parent"
+       android:layout_height="25dp"
+        android:layout_above="@+id/textView4"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+      
+        android:hint="@string/reg_phone_hint"
+        android:inputType="textPersonName"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/reg_email"
+        android:layout_centerHorizontal="true"
+        android:text="@string/reg_email_label"
+        android:textSize="10dp" />
+
+    <EditText
+        android:id="@+id/reg_email"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_above="@+id/textView3"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+      
+        android:hint="@string/reg_email_hint"
+        android:inputType="textWebEmailAddress"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/reg_pass"
+        android:layout_centerHorizontal="true"
+        android:text="@string/reg_password_label"
+        android:textSize="10dp" />
+
+    <EditText
+        android:id="@+id/reg_pass"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_above="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:hint="@string/reg_pass_hint"
+        android:inputType="textPassword"
+        android:textSize="10dp" />
+
+    <EditText
+        android:id="@+id/confirm_reg_pass"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_above="@+id/cancel_user_reg_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        
+        android:hint="@string/con_pass_hint"
+        android:inputType="textPassword"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/user_reg_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cancel_user_reg_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/button_below_bg"
+        android:height="25dp"
+        android:minHeight="25dp"
+        android:text="Register"
+        android:textColor="@color/button_txt_color"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/cancel_user_reg_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="35dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/button_top_bg"
+        android:height="25dp"
+        android:minHeight="25dp"
+        android:text="Cancel"
+        android:textColor="@color/button_txt_color"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/confirm_reg_pass"
+        android:layout_centerHorizontal="true"
+        android:text="@string/confirm_reg_password_label"
+        android:textSize="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="REGISTRATION"
+        android:textStyle="bold"
+        android:textSize="16dp" />
+
+</RelativeLayout>

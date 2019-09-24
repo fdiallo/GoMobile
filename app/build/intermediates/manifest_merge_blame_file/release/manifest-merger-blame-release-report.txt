@@ -1,0 +1,138 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.lescoccinellesmali.postit"
+4    android:versionCode="11"
+5    android:versionName="1.3.5" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="23" />
+9-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:8:5-67
+11-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:8:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:10:5-81
+12-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:10:22-78
+13    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+13-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:11:5-75
+13-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:11:22-72
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:12:5-80
+14-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:12:22-77
+15
+16    <application
+16-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:14:5-72:19
+17        android:allowBackup="true"
+17-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:15:9-35
+18        android:icon="@drawable/ic_launcher"
+18-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:16:9-45
+19        android:label="@string/app_name"
+19-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:17:9-41
+20        android:theme="@style/AppTheme"
+20-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:18:9-40
+21        android:windowSoftInputMode="stateAlwaysHidden" >
+21-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:19:9-56
+22        <activity
+22-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:20:9-28:20
+23            android:name="com.lescoccinellesmali.postit.MainActivity"
+23-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:21:13-41
+24            android:label="@string/title_activity_main" >
+24-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:22:13-56
+25            <intent-filter>
+25-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:23:13-27:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:24:17-69
+26-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:24:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:26:17-77
+28-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:26:27-74
+29            </intent-filter>
+30        </activity>
+31        <activity
+31-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:29:9-35:20
+32            android:name="com.lescoccinellesmali.postit.RegisterActivity"
+32-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:30:13-45
+33            android:label="@string/registration" >
+33-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:31:13-49
+34            <meta-data
+34-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:32:13-34:49
+35                android:name="android.support.PARENT_ACTIVITY"
+35-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:33:17-63
+36                android:value=".MainActivity" />
+36-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:34:17-46
+37        </activity>
+38        <activity
+38-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:36:9-42:20
+39            android:name="com.lescoccinellesmali.postit.LoginActivity"
+39-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:37:13-42
+40            android:label="@string/login" >
+40-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:38:13-42
+41            <meta-data
+41-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:32:13-34:49
+42                android:name="android.support.PARENT_ACTIVITY"
+42-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:33:17-63
+43                android:value=".MainActivity" />
+43-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:34:17-46
+44        </activity>
+45        <activity
+45-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:43:9-49:20
+46            android:name="com.lescoccinellesmali.postit.PostListActivity"
+46-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:44:13-45
+47            android:label="@string/app_name" >
+47-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:45:13-45
+48            <meta-data
+48-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:32:13-34:49
+49                android:name="android.support.PARENT_ACTIVITY"
+49-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:33:17-63
+50                android:value=".RegisterActivity" />
+50-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:34:17-46
+51        </activity>
+52        <activity
+52-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:50:9-56:20
+53            android:name="com.lescoccinellesmali.postit.PostPagerActivity"
+53-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:51:13-46
+54            android:label="@string/app_name" >
+54-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:52:13-45
+55            <meta-data
+55-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:32:13-34:49
+56                android:name="android.support.PARENT_ACTIVITY"
+56-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:33:17-63
+57                android:value=".PostListActivity" />
+57-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:34:17-46
+58        </activity>
+59        <activity
+59-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:57:9-63:20
+60            android:name="com.lescoccinellesmali.postit.PostUpdatePagerActivity"
+60-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:58:13-52
+61            android:label="@string/app_name" >
+61-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:59:13-45
+62            <meta-data
+62-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:32:13-34:49
+63                android:name="android.support.PARENT_ACTIVITY"
+63-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:33:17-63
+64                android:value=".PostListActivity" />
+64-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:34:17-46
+65        </activity>
+66        <activity
+66-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:64:9-70:20
+67            android:name="com.lescoccinellesmali.postit.NewPostActivity"
+67-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:65:13-44
+68            android:label="@string/new_post" >
+68-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:66:13-45
+69            <meta-data
+69-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:32:13-34:49
+70                android:name="android.support.PARENT_ACTIVITY"
+70-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:33:17-63
+71                android:value=".PostListActivity" />
+71-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:34:17-46
+72        </activity>
+73        <activity android:name="com.lescoccinellesmali.postit.ValidateDomainNameActivity" />
+73-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:71:9-73
+73-->/Users/consultant/Documents/go-mobile/app/src/main/AndroidManifest.xml:71:19-61
+74    </application>
+75
+76</manifest>
