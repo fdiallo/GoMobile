@@ -4,7 +4,7 @@
             "outputFile": "/Users/consultant/Documents/go-mobile/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "/Users/consultant/.gradle/caches/transforms-2/files-2.1/6e72280f2dc7ab327a85b21c631f1cf7/appcompat-v7-23.2.1/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "source": "/Users/consultant/.gradle/caches/transforms-2/files-2.1/bbf07aa1da9ab954374e693dfcc335b9/appcompat-v7-28.0.0/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

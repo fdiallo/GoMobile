@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "66973021382",
+    "firebase_url": "https://go-mobile-27cd2.firebaseio.com",
+    "project_id": "go-mobile-27cd2",
+    "storage_bucket": "go-mobile-27cd2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66973021382:android:6b40c682d70c91071b13c7",
+        "android_client_info": {
+          "package_name": "com.lescoccinellesmali.postit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66973021382-b4lhm2ujr8lv2d7h2p2gomr8c3qovi4e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lescoccinellesmali.postit",
+            "certificate_hash": "c9872cd8b7d35997aaa9802f30855986d6dcb04d"
+          }
+        },
+        {
+          "client_id": "66973021382-dl9gnhevkifbuh9vfeefffl3v5hg83d7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRLrzcwyjfpZbOB5Fbci8xdVBanvCHtyc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66973021382-dl9gnhevkifbuh9vfeefffl3v5hg83d7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
